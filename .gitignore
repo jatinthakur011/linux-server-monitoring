@@ -1,0 +1,21 @@
+# Private keys
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# Secrets
+.env
+*.secret
+*.credentials
+
+# Runtime logs
+logs/*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# OS/editor files
+.DS_Store
