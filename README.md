@@ -641,28 +641,3 @@ This gives you a much stronger story than having two unrelated Linux projects.
 
 ---
 
-## ⚠️ Important: Fix Before GitHub
-
-Your current output shows:
-
-```text
-CPU Usage: %
-```
-
-and:
-
-```text
-awk: cmd. line:1: BEGIN {print 100 - id,}
-```
-
-and:
-
-```text
-CPU_THRESHOLD arithmetic syntax error
-```
-
-So don't put the current `monitor.sh` on GitHub yet.
-
-The good news is that your Nginx detection and auto-recovery worked successfully. The CPU calculation needs to be corrected, and the threshold variable needs to be fixed. After that, do one clean final test and then push the project to GitHub.
-
-Your Cron setup and `system-report.sh` output look good from what you've shown.
